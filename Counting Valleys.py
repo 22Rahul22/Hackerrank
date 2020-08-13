@@ -1,9 +1,9 @@
-n = int(input("Enter the number of steps: "))
+a = int(input("Enter the number of steps: "))
 s = input("Enter the ups and downs: ")
 print(s)
 sea = 0
 c = 0
-for i in range(n):
+for i in range(a):
     if s[i] == 'D':
         sea -= 1
     else:
